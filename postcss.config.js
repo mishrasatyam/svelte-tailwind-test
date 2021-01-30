@@ -8,7 +8,7 @@ const dev = mode === "development";
 module.exports = {
 	plugins: [
 		autoprefixer,
-		
+		tailwindcss(),
 		!dev && cssnano({
 			preset: "default",
 		}),

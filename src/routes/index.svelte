@@ -1,9 +1,10 @@
 <script>
 	import Counter from '$components/Counter.svelte';
+
 </script>
 
 <main>
-	<h1>Hello world!</h1>
+	<h1 class="text-blue-400">Hello world!</h1>
 
 	<Counter/>
 	<p>Visit the <a class="text-blue-600 underline" href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte apps.</p>
@@ -22,16 +23,7 @@
 		@apply mx-auto;
 	}
 
-	h1 {
-		@apply text-red-600;
-		@apply uppercase;
-		@apply text-6xl;
-		@apply font-thin;
-		@apply leading-tight;
-		@apply my-16 mx-auto;
-		@apply max-w-xs;
-	}
-
+	
 	p {
 		@apply max-w-xs;
 		@apply my-8 mx-auto;
